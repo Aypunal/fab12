@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+
+    RewriteEngine on
+
+    #RewriteCond %{SERVER_PORT} 80
+    #RewriteRule ^(.*)$ https://find-a-party.fr/$1 [R,L]
+
+    DirectoryIndex /index.html
+
+    Options -Indexes
+
+</IfModule>
+
